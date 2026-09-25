@@ -1,0 +1,52 @@
+ComicCraft – AI Comic Story Creator using Gemini Models
+
+1. Project Description
+
+ComicCraft is an AI-powered application that uses Gemini models to generate creative comic story content from user-provided prompts.
+
+2. Features
+
+- User prompt input
+- AI-based story generation
+- Gemini model integration
+- Simple user interface
+- Generated story display
+
+3. Technologies Used
+
+- Python
+- FastAPI
+- Gemini Models
+- HTML
+- CSS
+- Jinja2, if used in the project
+
+4. Application Workflow
+
+The user enters a story prompt through the interface. The FastAPI backend receives the request and communicates with the Gemini model. The generated response is then displayed to the user.
+
+5. Project Files
+
+app.py
+
+Contains the main application logic and backend functionality.
+
+requirements.txt
+
+Contains the Python packages required to run the project.
+
+templates/
+
+Contains the HTML templates used by the application.
+
+static/
+
+Contains static resources such as CSS and other frontend files.
+
+6. Development Process
+
+The application was developed by creating the user interface, implementing backend functionality, integrating the Gemini model, and testing the generated output.
+
+Conclusion
+
+The development phase converts the project design into a functional ComicCraft application. The integration of FastAPI and Gemini models enables the application to process user prompts and generate AI-based comic story content.
