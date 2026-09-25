@@ -1,0 +1,44 @@
+Project Testing
+
+1. Introduction
+
+Testing is performed to verify that the ComicCraft application works correctly and produces appropriate results for different user inputs.
+
+2. Testing Objectives
+
+- Verify user input handling.
+- Verify Gemini integration.
+- Verify story generation.
+- Verify output display.
+- Identify errors.
+- Check application usability.
+
+3. Test Scenarios
+
+The application is tested with different types of prompts, including simple story ideas, detailed prompts, and empty inputs.
+
+4. Test Cases
+
+Test cases include:
+
+- Valid story prompt
+- Simple story prompt
+- Empty input
+- Detailed story prompt
+- Multiple different prompts
+
+5. Expected Result
+
+For a valid prompt, the system should generate relevant comic story content and display it to the user.
+
+6. Error Handling
+
+Invalid or empty inputs should be handled appropriately by the application.
+
+7. Testing Result
+
+The test results are recorded in the Test_Cases.xlsx file. Any identified errors are corrected before the final demonstration.
+
+Conclusion
+
+Testing helps ensure that ComicCraft performs its major functions correctly. The testing process improves the reliability and usability of the application before final submission.
