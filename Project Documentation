@@ -1,0 +1,76 @@
+ComicCraft – AI Comic Story Creator using Gemini Models
+
+1. Abstract
+
+ComicCraft is an AI-powered application designed to assist users in creating creative comic stories using Gemini models. The application accepts a user-provided story idea or prompt and uses Generative AI to produce suitable comic story content.
+
+2. Introduction
+
+Generative AI has created new possibilities for creative content generation. ComicCraft applies Generative AI technology to storytelling and provides users with an easy way to generate comic story content.
+
+3. Problem Statement
+
+Manual comic story creation can require considerable time, creativity, and planning. Beginners may find it difficult to develop complete storylines and characters. ComicCraft aims to provide AI assistance for this process.
+
+4. Objectives
+
+- Develop an AI-based comic story creator.
+- Integrate Gemini models.
+- Generate story content from user prompts.
+- Provide a simple interface.
+- Support creative storytelling.
+
+5. Proposed System
+
+The proposed system allows users to enter a story idea. The backend processes the request and sends the prompt to the Gemini model. The generated story is returned and displayed through the application interface.
+
+6. Technologies Used
+
+- Python
+- FastAPI
+- Gemini Models
+- HTML
+- CSS
+- Jinja2, if applicable
+
+7. System Architecture
+
+User → Web Interface → FastAPI Backend → Gemini Model → Generated Story → User Interface
+
+8. Implementation
+
+The application consists of frontend and backend components. The frontend accepts user input and displays the generated result. The backend handles routing and communication with the Gemini model.
+
+9. Testing
+
+The application is tested using different prompts and input conditions. The test results are documented in the testing phase.
+
+10. Benefits
+
+- Easy to use
+- Saves time
+- Supports creativity
+- Generates content from simple prompts
+- Useful for students and beginners
+
+11. Future Enhancements
+
+- AI-generated comic images
+- Character customization
+- Multiple comic styles
+- Downloadable comic pages
+- Character consistency
+- Voice-based input
+- Story editing options
+
+12. Conclusion
+
+ComicCraft demonstrates the practical application of Generative AI in creative storytelling. By combining a simple user interface, backend processing, and Gemini models, the application helps users transform their ideas into comic story content. The project also provides practical experience in AI integration, web application development, testing, and documentation.
+
+13. References
+
+- Google Gemini documentation
+- Python documentation
+- FastAPI documentation
+- HTML documentation
+- CSS documentation
